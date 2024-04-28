@@ -8,7 +8,7 @@ import Erro404 from "../compo/Error404"
 const Rota = () => {
     return(
         <Routes>
-            <Route path="/home" element={<Main/>} />
+            <Route path="/Projeto-fixo" element={<Main/>} />
             <Route path="*" element={<Erro404/>} />
 
         </Routes>
